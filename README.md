@@ -72,13 +72,13 @@ It works just like Lenskart’s virtual glasses try-on but for clothes! Users ca
 ✅ Fashion Design & Tailoring – Custom clothing fitting.
 ✅ Metaverse & Virtual Reality – Virtual fashion experiences.
 ✅ Social Media & Influencers – AI-driven styling & recommendations.
+
 🚀 Future Scope & Enhancements
 
 🔹 Virtual Wardrobe – Users can save and manage their outfits.
 🔹 Smart Mirror Integration – A touchless in-store try-on experience.
 🔹 Blockchain-Based Digital Fashion – NFT-based virtual outfits.
+
 📢 Conclusion
 
 WearAI is a revolutionary fashion-tech solution that bridges the gap between online shopping and real-world outfit trials. It makes shopping easier, smarter, and more interactive while reducing returns and improving user satisfaction.
-
-Would you like me to help with a prototype UI design or AI model implementation? 🚀
