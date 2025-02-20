@@ -1,9 +1,10 @@
 # Wear-AI
+
 📌 Project Overview
 
 WearAI is an AI-powered virtual outfit try-on system that allows users to visualize how clothes would fit them without physically wearing them. Using Augmented Reality (AR), AI-based body detection, and 3D rendering, WearAI overlays selected outfits onto the user's body in real-time, helping them make confident shopping decisions.
-
 It works just like Lenskart’s virtual glasses try-on but for clothes! Users can scan their body, select an outfit, and see how it looks on them instantly.
+
 ✨ Key Features
 
 ✅ Real-Time Virtual Try-On
