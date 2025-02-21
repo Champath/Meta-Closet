@@ -1,8 +1,8 @@
-# Wear-AI
+# Meta-Closet
 
 📌 Project Overview
 
-WearAI is an AI-powered virtual outfit try-on system that allows users to visualize how clothes would fit them without physically wearing them. Using Augmented Reality (AR), AI-based body detection, and 3D rendering, WearAI overlays selected outfits onto the user's body in real-time, helping them make confident shopping decisions.
+Meta-Closet is an AI-powered virtual outfit try-on system that allows users to visualize how clothes would fit them without physically wearing them. Using Augmented Reality (AR), AI-based body detection, and 3D rendering, Meta-Closet overlays selected outfits onto the user's body in real-time, helping them make confident shopping decisions.
 It works just like Lenskart’s virtual glasses try-on but for clothes! Users can scan their body, select an outfit, and see how it looks on them instantly.
 
 ✨ Key Features
@@ -66,7 +66,7 @@ It works just like Lenskart’s virtual glasses try-on but for clothes! Users ca
 - Firebase / Supabase – Authentication & real-time data
 - Docker / Kubernetes – Deployment & scalability
 
-💡 Where Can WearAI Be Used?
+💡 Where Can Meta-Closet Be Used?
 
 ✅ E-Commerce Platforms – Virtual try-on for fashion brands.
 ✅ Shopping Mall Kiosks – In-store virtual trial rooms.
@@ -82,4 +82,4 @@ It works just like Lenskart’s virtual glasses try-on but for clothes! Users ca
 
 📢 Conclusion
 
-WearAI is a revolutionary fashion-tech solution that bridges the gap between online shopping and real-world outfit trials. It makes shopping easier, smarter, and more interactive while reducing returns and improving user satisfaction.
+Meta-Closet is a revolutionary fashion-tech solution that bridges the gap between online shopping and real-world outfit trials. It makes shopping easier, smarter, and more interactive while reducing returns and improving user satisfaction.
