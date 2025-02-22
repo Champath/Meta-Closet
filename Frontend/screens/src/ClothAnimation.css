@@ -1,0 +1,59 @@
+/* Container to hold the doors and content */
+.cloth-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.door {
+  position: absolute;
+  top: 0;
+  width: 50%; 
+  height: 100%;
+  background-size: cover; 
+  background-position: center;
+  transition: transform 2s ease-in-out; 
+  z-index: 2; 
+}
+
+
+.left-door {
+  left: 0;
+  transform-origin: left; 
+  transform: translateX(0%); 
+}
+
+
+.right-door {
+  right: 0;
+  transform-origin: right;
+  transform: translateX(0%); 
+}
+
+/* Animation for the left door */
+.left-door.animate-left-door {
+  transform: translateX(-100%); 
+}
+
+/* Animation for the right door */
+.right-door.animate-right-door {
+  transform: translateX(100%); /* Move to the right */
+}
+
+/* Content to be revealed */
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Background for the content */
+  z-index: 1; /* Ensure it's below the doors initially */
+}
