@@ -69,7 +69,7 @@ def remove_bg(image_path):
     original_size = Image.open(image_path).size  # Get original size
 
     mask_path = get_segmentation_mask(model, image_tensor, original_size)  # Generate mask
-    garment_path = extract_garment(image_path, mask_path)  # Extract garment
+    garment_path = extract_garment(image_path, mask_path)  # Extract bg removed image
     
     print(f"Garment extracted and saved at: {garment_path}")
 
