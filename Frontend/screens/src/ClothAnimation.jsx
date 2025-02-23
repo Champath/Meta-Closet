@@ -13,7 +13,7 @@ const ClothAnimation = () => {
   
     const lastShown = localStorage.getItem('lastAnimationShown');
     const now = new Date().getTime();
-    const oneMonthInMillis = (30 * 24 * 60 * 60 * 1000).toString(); // 30 days in milliseconds
+    const oneMonthInMillis = (30*24*60*60* 1000).toString(); // 30 days in milliseconds
    
     console.log('Last shown:', lastShown);
     console.log('Current time:', now);

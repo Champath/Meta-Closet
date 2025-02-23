@@ -1,0 +1,126 @@
+.lubie-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.5),  /* Black with 50% opacity */
+    rgba(0, 0, 0, 0.5)
+), url('./assets/bg2.jpg') no-repeat center center/cover;
+    
+background-size: cover;
+background-position: center;
+background-attachment: fixed;  /* Optional for parallax effect */
+
+    color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+  }
+  @font-face {
+    font-family: 'RockOut';
+    src: url('./assets/fonts/feeding.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Org';
+    src: url('./assets/fonts/rockout.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .heady {
+    font-family: 'RockOut', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px !important;
+    background-color: #fecd45;
+    text-align: center;
+    color: #f5f5f5;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .meta-closet-text {
+    position: absolute;
+    font-family: RockOut;
+    letter-spacing: 4px;
+    color:#f9f9f9;
+    font-size: 400%;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    animation: moveUp 0.6s ease-in-out forwards;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  @keyframes moveUp {
+    0% {
+      top: 50%;
+      opacity: 0;
+    }
+    100% {
+      top: 20px;
+      opacity: 1;
+    }
+  }
+  
+  .lubie-container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: org;
+    max-width: 400px;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .lubie-container.fade-out {
+    opacity: 0; 
+  }
+  
+  .lubie-image {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 35%;
+    height: auto;
+    animation: bounce 1.2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .lubie-dialog {
+    margin-top: 40px;
+  }
+  
+  .lubie-dialog p {
+    margin: 0 0 1rem 0;
+    color: #FFFFFF;
+  }
+  
+  .lubie-dialog button {
+    background-color: #8A2BE2;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lubie-dialog button:hover {
+    background-color: #9400D3;
+  }

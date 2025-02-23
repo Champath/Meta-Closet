@@ -1,4 +1,4 @@
-/* Container to hold the doors and content */
+
 .cloth-container {
   position: fixed;
   top: 0;
@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: 1000; /* Ensure it's on top of other content */
+  z-index: 1000; 
 }
 
 .door {
@@ -34,17 +34,15 @@
   transform: translateX(0%); 
 }
 
-/* Animation for the left door */
 .left-door.animate-left-door {
   transform: translateX(-100%); 
 }
 
-/* Animation for the right door */
 .right-door.animate-right-door {
-  transform: translateX(100%); /* Move to the right */
+  transform: translateX(100%); 
 }
 
-/* Content to be revealed */
+
 .content {
   position: absolute;
   top: 0;
@@ -54,6 +52,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white; /* Background for the content */
-  z-index: 1; /* Ensure it's below the doors initially */
+  background-color: white; 
+  z-index: 1; 
 }
