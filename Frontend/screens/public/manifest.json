@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Meta Closet Try-On",
+  "version": "1.0",
+  "description": "Upload an image and try on outfits directly.",
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    
+  },
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.amazon.com/*", "*://*.flipkart.com/*", "*://*.meesho.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Open the try-on popup"
+    }
+  },
+  "context_menus": [
+    {
+      "id": "tryOnImage",
+      "title": "Try On This Image",
+      "contexts": ["image"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

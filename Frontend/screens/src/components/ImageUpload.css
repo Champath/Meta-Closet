@@ -1,0 +1,266 @@
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.mini-about{
+   text-align: justify;
+   padding: 10px;
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  max-width: 120000px;
+  margin: 0 0;
+  
+  
+  /* box-sizing: border-box; */
+}
+
+
+.shadow {
+  height: 2px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)); 
+  color: #2568fb;
+}
+
+@font-face {
+  font-family: 'RockOut';
+  src: url('./assets/fonts/feeding.ttf') format('truetype');
+       /* url('./assets/fonts/CustomFont.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+.heady {
+  font-family: RockOut;
+  letter-spacing: 3px;
+  font-size: 30px;
+  background-color: #fecd45;
+  text-align: center;
+  color:#2568fb;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);  
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 2;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.about-heading-container {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  letter-spacing: 2px;
+}
+
+.about-image {
+  width: 50px;
+  height: auto;
+}
+.about-section {
+  background-color:#fecd45;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+.about-section h2 {
+  padding-left: 10px;
+  font-size: 2rem;
+  
+}
+
+.about-section p {
+  /* font-size: 1rem; */
+  line-height: 1.6;
+}
+
+.upload-instruction {
+  font-family: RockOut;
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: bold;
+  color:#2568fb;
+}
+
+
+
+.upload-section {
+  
+  background-color: #fecd45;
+  padding-bottom: 5%;
+  flex: 1; 
+}
+
+.upload-container {
+  color:#2568fb ;
+  text-align: center;
+  padding: 0 30%;
+}
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.drop-zone:hover {
+  border-color: #888;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.upload-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.choose-button,
+.upload-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.choose-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.choose-button:hover {
+  background-color: #0056b3;
+}
+
+.upload-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.upload-button:hover {
+  background-color: #218838;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+
+.image-scroll {
+  margin-bottom: 40px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.image-row {
+  display: flex;
+  width: 200%;
+  animation: scroll 20s linear infinite; 
+}
+
+.image-row img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+.upload-instruction-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.moving-image {
+  width: 9%;
+  height: auto;
+  animation: moveLeftRight 2s linear infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
+.about-content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.mini-about {
+  flex: 1;
+  margin: 0;
+}
+
+.about-description-image {
+  padding-right: 2%;
+  width : 400px; 
+  height: auto;
+  border-radius: 10px; 
+}
+
