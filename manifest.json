@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Meta-Closet",
+  "version": "1.0",
+  "description": "Try on dresses virtually using Meta-Closet.",
+  "action": {
+    "default_popup": "Frontend/screens/src/ClothAnimation.jsx",
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": ["activeTab"]
+}
