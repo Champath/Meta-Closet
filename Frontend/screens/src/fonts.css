@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'RockOut';
+    src: url('./assets/fonts/rockout.ttf') format('truetype');
+         /* url('./assets/fonts/CustomFont.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
